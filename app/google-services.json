@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "162682210633",
+    "firebase_url": "https://test-5ba73.firebaseio.com",
+    "project_id": "test-5ba73",
+    "storage_bucket": "test-5ba73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162682210633:android:025daae70472acb6",
+        "android_client_info": {
+          "package_name": "com.karol.vimos.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162682210633-gmd7v71j2d4nglf95q5rmtea0pcb35l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnYpgLIb8EEmC-NBjt9OmZSPO9UkBO7vs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162682210633:android:090c0bbf727a9b7b",
+        "android_client_info": {
+          "package_name": "com.karol.vimos.gym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162682210633-jv6nfbf5ttmu850oi0rkh43un5r3mmmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.karol.vimos.gym",
+            "certificate_hash": "B5F5688E0B104E7E26DC5538A0A095330E491B2E"
+          }
+        },
+        {
+          "client_id": "162682210633-gmd7v71j2d4nglf95q5rmtea0pcb35l3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnYpgLIb8EEmC-NBjt9OmZSPO9UkBO7vs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162682210633-gmd7v71j2d4nglf95q5rmtea0pcb35l3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

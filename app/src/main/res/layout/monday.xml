@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_Monday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="TIME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_Monday"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="36dp"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:text="10-11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="54dp"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:text="11-12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="25dp"
+        android:id="@+id/tv_reservefslot" />
+
+    <TextView
+        android:text="Reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_reservefslot"
+        android:layout_alignStart="@+id/reserve_fslot"
+        android:id="@+id/reserve_sslot" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/reserve_sslot"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/second_slot"
+        android:layout_alignStart="@+id/first_slot" />
+
+    <TextView
+        android:text=" / "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_alignBaseline="@+id/unreserve_fslot"
+        android:layout_alignBottom="@+id/unreserve_fslot"
+        android:layout_toEndOf="@+id/reserve_fslot" />
+
+    <TextView
+        android:text=" / "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/reserve_sslot"
+        android:layout_toEndOf="@+id/reserve_sslot"
+        android:id="@+id/textView12" />
+
+    <TextView
+        android:text="Unreserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/unreserve_sslot"
+        android:layout_alignBaseline="@+id/textView12"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12" />
+
+    <TextView
+        android:text="12-13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_reservefslot"
+        android:layout_alignStart="@+id/tv_reservefslot"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:text="Reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/reserve_sslot"
+        android:id="@+id/reserve_tslot" />
+
+    <TextView
+        android:text=" / "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_alignBaseline="@+id/reserve_tslot"
+        android:layout_alignBottom="@+id/reserve_tslot"
+        android:layout_toEndOf="@+id/reserve_tslot" />
+
+    <TextView
+        android:text="Unreserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_alignEnd="@+id/unreserve_sslot"
+        android:id="@+id/unreserve_tslot" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/unreserve_tslot"
+        android:layout_alignStart="@+id/second_slot"
+        android:id="@+id/third_slot" />
+
+    <TextView
+        android:text="13-14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:text="Reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignStart="@+id/reserve_tslot"
+        android:id="@+id/reserve_frslot" />
+
+    <TextView
+        android:text=" / "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_alignBaseline="@+id/reserve_frslot"
+        android:layout_alignBottom="@+id/reserve_frslot"
+        android:layout_toEndOf="@+id/reserve_frslot" />
+
+    <TextView
+        android:text="Unreserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_toEndOf="@+id/textView16"
+        android:id="@+id/unreserve_frslot" />
+
+    <TextView
+        android:text="@string/_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fourth_slot"
+        android:layout_alignBaseline="@+id/unreserve_frslot"
+        android:layout_alignBottom="@+id/unreserve_frslot"
+        android:layout_alignStart="@+id/third_slot" />
+
+    <TextView
+        android:text="Reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginStart="18dp"
+        android:layout_above="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <TextView
+        android:text="Total Reserved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Your res"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toEndOf="@+id/unreserve_fslot"
+        android:id="@+id/textView6" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/second_slot"
+        android:layout_alignStart="@+id/tv_fslot"
+        android:id="@+id/tv_sslot" />
+
+    <TextView
+        android:text="@string/_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_slot"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toEndOf="@+id/tv_Monday" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_fslot"
+        android:layout_alignBaseline="@+id/first_slot"
+        android:layout_alignBottom="@+id/first_slot"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginStart="41dp" />
+
+    <TextView
+        android:text="Reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00cc00"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/reserve_fslot"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_toStartOf="@+id/tv_Monday"
+        android:layout_above="@+id/tv_reservefslot" />
+
+    <!-- <TextView
+         android:text="Unreserve"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/unreserve_fslot"
+         android:layout_below="@+id/reserve_fslot"
+         android:layout_toEndOf="@+id/textView11" />-->
+
+</RelativeLayout>

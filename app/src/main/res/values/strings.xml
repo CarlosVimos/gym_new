@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">gym</string>
+    <string name="def_value">0</string>
+    <string name="_0">0</string>
+    <integer name="first_zero">0</integer>
+
+</resources>
